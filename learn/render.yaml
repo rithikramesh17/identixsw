@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: learn-spring-boot
+    runtime: docker
+    healthCheckPath: /iclock/getrequest?SN=HEALTH_CHECK
+
